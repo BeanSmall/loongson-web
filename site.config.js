@@ -17,6 +17,10 @@ export default {
       {
         text: '龙芯开源社区',
         link: 'http://www.loongnix.cn/zh/'
+      },
+      {
+        text: '校企合作',
+        link: 'https://www.loongson.cn/system/rc?p=3'
       }
     ],
     contact: [
