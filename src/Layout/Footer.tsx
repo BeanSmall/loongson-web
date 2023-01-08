@@ -24,6 +24,17 @@ const Footer = () => {
           </section>
 
           <section>
+            <div className="sub-title">龙芯教育</div>
+            <div className="sub-items">
+              {map(siteConfig.footer.education, ({ text, link }) => (
+                  <div key={link}>
+                    <a href={link}>{text}</a>
+                  </div>
+              ))}
+            </div>
+          </section>
+
+          <section>
             <div className="sub-title">联系我们</div>
             <div className="sub-items">
               {map(siteConfig.footer.contact, ({ label, text }) => (
@@ -36,7 +47,7 @@ const Footer = () => {
           </section>
         </div>
         <a className="record-number" href="https://beian.miit.gov.cn/#/Integrated/index">
-          北京清华大学·京ICP备16045052号-11
+          {siteConfig.footer.recordNumber}
         </a>
       </div>
     </footer>
