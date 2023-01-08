@@ -37,6 +37,20 @@ export default {
         text: '北京市海淀区地锦路7号院4号楼1层101'
       }
     ],
-    recordNumber: '龙芯中科技术股份有限公司·京ICP备16045052号-11'
+    recordNumber: '龙芯中科技术股份有限公司·京ICP备16045052号-11',
+    education:[
+      {
+        text: '龙芯高等教育',
+        link: 'https://www.loongson.cn/system/jy?p=0'
+      },
+      {
+        text: '龙芯职业教育',
+        link: 'https://www.loongson.cn/system/jy?p=1'
+      },
+      {
+        text: '龙芯基础教育',
+        link: 'https://www.loongson.cn/system/jy?p=2'
+      }
+    ]
   }
 }
