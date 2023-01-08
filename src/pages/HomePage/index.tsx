@@ -55,10 +55,14 @@ function HomePage() {
       </>
     )
   }
+  // @ts-ignore
   return (
     <div className="home-wrapper">
       <Spin spinning={loading}>
         <header className="home-wrapper-header">
+          <div>
+            <marquee direction="left" align="bottom" height="25" width="100%" scrollamount="5" scrolldelay="1">{siteConfig.welcome}</marquee>
+          </div>
           <img className="intro-cover" src={config.coverUrl} alt="site-cover" />
           <img className="logo-mark" src={config.consultUrl} alt="logo-mark" />
           <ul className="nav">

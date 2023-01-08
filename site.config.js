@@ -4,6 +4,7 @@ export default {
   logo: 'https://ssl.cdn.maodouketang.com/FsELfTn2KhwjVxKpABQGhyoR-IbH',
   title: '龙芯直播课堂',
   subTitle: '促进龙芯开源技术的教学、研究与产业的发展',
+  welcome: '❀❀❀❀❀热烈祝贺2023年1月份龙芯师资培训班直播课堂顺利开课！！！❀❀❀❀❀',
   footer: {
     resources: [
       {
